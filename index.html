@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SushiBox</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+    
+<form>
+<div class="wrapperBox">
+
+
+<div class="woklist">
+    <h3>Выберите основу WOK</h3>
+
+<div class="wokitem">
+    <input type="radio" id="Udon"name="wokBase"  value="Udon" checked>
+    <label for="Udon">Локшина Удон</label>
+  </div>
+
+  <div class="wokitem">
+    <input type="radio" id="Funchoza" name="wokBase"  value="Funchoza">
+    <label for="Funchoza">Локшина Фунчоза</label>
+</div>
+
+<div class="wokitem">
+    <input type="radio" id="Pchenichna" name="wokBase"  value="Pchenichna">
+    <label for="Pchenichna">Локшина Пшенична</label>
+</div>
+
+<div class="wokitem">
+    <input type="radio" id="Rice" name="wokBase"  value="Rice">
+    <label for="Rice">Рис</label>
+</div>
+
+</div>
+
+<div class="vegList">
+
+    <h3>Овочі</h3>
+
+        <div class="vegitem">
+            <input type="radio" id="vegs"name="veg"  value="veg" checked>
+            <label for="vegs">Овочі</label>
+          </div>
+        
+          <div class="vegitem">
+            <input type="radio" id="novegs" name="veg"  value="no-veg">
+            <label for="novegs">Без овочей</label>
+        </div>
+
+        <p class="descriptionVeg">Складові: цибуля ріпчаста,<br> морква, паприка, капуста, огірок</p>
+
+        <img class="vegpicture" src="./image/915a3098ff73bf9a87bc.jpg" alt="овочі">
+
+
+
+
+</div>
+
+<div class="souceList">
+
+    <h3>ВИБЕРИ СОУС</h3>
+
+        <div class="souceitem">
+            <input type="radio" id="teriyaki"name="souce"  value="teriyaki" checked>
+            <label for="teriyaki">Теріякі</label>
+          </div>
+        
+          <div class="souceitem">
+            <input type="radio" id="Gostriy"name="souce"  value="Gostriy">
+            <label for="Gostriy">Гострий</label>
+          </div>
+
+          <div class="souceitem">
+            <input type="radio" id="ustirchniy"name="souce"  value="Ustirchniy">
+            <label for="ustirchniy">Устричний</label>
+          </div>
+
+          <div class="souceitem">
+            <input type="radio" id="vershkoviy"name="souce"  value="vershkoviy">
+            <label for="vershkoviy">Вершковий</label>
+          </div>
+
+          <img class="sousepicture" src="./image/252a213956ecc2ad7d2c.png" alt="соус">
+
+</div>
+
+
+<div class="topingList">
+
+    <h3>Топінги</h3>
+    <div class="topingitem">
+        <div class="topingcheckbox">
+        <input type="checkbox" data-price="5" id="kungut"name="toping"  value="kungut">
+        <label for="kungut">Кунжут</label>
+        </div>
+        <div class="price">5 ₴</div>
+      </div>
+
+      <div class="topingitem">
+        <div class="topingcheckbox">
+        <input type="checkbox" data-price="25" id="ananas"name="toping"  value="ananas">
+        <label for="ananas">Ананас</label>
+        </div>
+        <div class="price">25 ₴</div>
+      </div>
+      <div class="topingitem">
+        <div class="topingcheckbox">
+        <input type="checkbox" data-price="29" id="vegdop"name="toping"  value="vegdop">
+        <label for="vegdop">Овочі доп.</label>
+        </div>
+        <div class="price">29 ₴</div>
+      </div>
+      <div class="topingitem">
+        <div class="topingcheckbox">
+        <input type="checkbox" data-price="29" id="paprika"name="toping"  value="paprika">
+        <label for="paprika">Папріка</label>
+        </div>
+        <div class="price">29 ₴</div>
+      </div>
+      <div class="topingitem">
+        <div class="topingcheckbox">
+        <input type="checkbox" data-price="39" id="parmezan"name="toping"  value="parmezan">
+        <label for="parmezan">Сир пармезан</label>
+        </div>
+        <div class="price">39 ₴</div>
+      </div>
+      <div class="topingitem">
+        <div class="topingcheckbox">
+        <input type="checkbox" data-price="29" id="cherry"name="toping"  value="cherry">
+        <label for="cherry">Томати Черрі</label>
+        </div>
+        <div class="price">29 ₴</div>
+      </div>
+      <div class="topingitem">
+        <div class="topingcheckbox">
+        <input type="checkbox" data-price="19" id="kvasolya"name="toping"  value="kvasolya">
+        <label for="kvasolya">Квасоля Стручкова</label>
+        </div>
+        <div class="price">19 ₴</div>
+      </div>
+      <div class="topingitem">
+        <div class="topingcheckbox">
+        <input type="checkbox" data-price="10" id="chasnik"name="toping"  value="chasnik">
+        <label for="chasnik">Часник</label>
+        </div>
+        <div class="price">10 ₴</div>
+      </div>
+      <div class="topingitem">
+        <div class="topingcheckbox">
+        <input type="checkbox" data-price="29" id="pecherici"name="toping"  value="pecherici">
+        <label for="pecherici">Печериці Гриби</label>
+        </div>
+        <div class="price">29 ₴</div>
+      </div>
+
+      <div class="topingitem">
+        <div class="topingcheckbox">
+        <input type="checkbox" data-price="35" id="chitake"name="toping"  value="chitake">
+        <label for="chitake">Шиітаке Гриби</label>
+        </div>
+        <div class="price">35 ₴</div>
+      </div>
+    
+      <img class="topingpicture" src="./image/b72b1f68e527d6503c1c.png" alt="топінги">
+</div>
+
+
+<div class="meetfishList">
+    <h3>М'ЯСО/РИБА</h3>
+    
+    <div class="meetfishitem">
+        <div class="meetfishcheckbox">
+        <input type="checkbox" data-price="69" id="krevetka"name="toping"  value="krevetka">
+        <label for="krevetka">Креветка Тигрова</label>
+        </div>
+        <div class="price">69 ₴</div>
+      </div>
+
+      <div class="meetfishitem">
+        <div class="meetfishcheckbox">
+        <input type="checkbox" data-price="79" id="yalovishina"name="toping"  value="yalovishina">
+        <label for="yalovishina">Яловичина</label>
+        </div>
+        <div class="price">79 ₴</div>
+      </div>
+
+      <div class="meetfishitem">
+        <div class="meetfishcheckbox">
+        <input type="checkbox" data-price="49" id="kurica"name="toping"  value="kurica">
+        <label for="kurica">Курица</label>
+        </div>
+        <div class="price">49 ₴</div>
+      </div>
+
+      <div class="meetfishitem">
+        <div class="meetfishcheckbox">
+        <input type="checkbox" data-price="99" id="fish"name="toping"  value="fish">
+        <label for="fish">Лосось</label>
+        </div>
+        <div class="price">99 ₴</div>
+      </div>
+
+      <div class="meetfishitem">
+        <div class="meetfishcheckbox">
+        <input type="checkbox" data-price="65" id="beckon"name="toping"  value="beckon">
+        <label for="beckon">Бекон</label>
+        </div>
+        <div class="price">65 ₴</div>
+      </div>
+
+      <img class="meetfishpicture" src="./image/d1727c4b346cc05c26db.png" alt="мясо/рыба">
+</div>
+
+
+<div class="soucedopList">
+<h3>ДОДАЙ СОУС</h3>
+
+<div class="soucedopitem">
+    <div class="soucedopcheckbox">
+    <input type="checkbox" data-price="29" id="gostriywok"name="toping"  value="gostriywok">
+    <label for="gostriywok">Гострий Соус</label>
+    </div>
+    <div class="price">29 ₴</div>
+  </div>
+
+  <div class="soucedopitem">
+  <div class="soucedopcheckbox">
+    <input type="checkbox" data-price="29" id="teriyakidop"name="toping"  value="teriyakidop">
+    <label for="teriyakidop">Теріякі</label>
+    </div>
+    <div class="price">29 ₴</div>
+  </div>
+
+  <div class="soucedopitem">
+  <div class="soucedopcheckbox">
+    <input type="checkbox" data-price="29" id="ustrichniydop"name="toping"  value="ustrichniydop">
+    <label for="ustrichniydop">Устричний</label>
+    </div>
+    <div class="price">29 ₴</div>
+  </div>
+
+  <div class="soucedopitem">
+  <div class="soucedopcheckbox">
+    <input type="checkbox"data-price="29" id="vershkoviydop"name="toping"  value="vershkoviydop">
+    <label for="vershkoviydop">Вершковий</label>
+    </div>
+    <div class="price">29 ₴</div>
+  </div>
+
+  <img class="soucedoppicture" src="./image/a0e48295aff645d14fc0.png" alt="соус">
+</div>
+    
+
+</div>
+
+<div class="calculateWokList">
+
+<h3>ВАШ WOK</h3>
+<div class="allprice">Общая сумма: 99₴</div>
+<div class="calculayewokItem">
+
+<div class="ingridientItem" data-price="99">Локшина фунчоза + Овочі + Теріякі<span class="price">99₴</span></div>
+
+
+</div>
+
+
+
+
+
+
+
+</div>
+
+</form>
+
+
+
+</body>
+
+<script src="./script.js"></script>
+</html>

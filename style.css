@@ -1,0 +1,81 @@
+.wrapperBox{
+    width:900px;
+ display:flex ;
+ flex-wrap:wrap; 
+ align-items: flex-start;
+}
+
+
+
+.woklist{
+display: flex;
+flex-direction: column;
+
+}
+
+.topingitem, .meetfishitem,.soucedopitem{
+ display:flex;   
+}
+
+.price{
+    margin-left:10px;
+    margin-top:-1px; 
+}
+
+
+.woklist,.vegList,.souceList,.topingList,.meetfishList,.soucedopList{
+
+ margin-right: 30px;   
+ margin-bottom: 30px;
+ 
+width:200px;
+padding:20px;
+height:auto;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+
+}
+
+h3{
+    text-align: center 
+}
+
+
+.calculateWokList{
+ width:300px;
+ height:auto;   
+
+ position:absolute;
+
+ top:200px;
+ left:1000px;
+ border-radius: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.calculayewokItem{
+ font-size: 10px;   
+ display:flex
+}
+
+.ingridientItem{
+ font-size:10px;   
+ margin-left:10px;
+ 
+}
+
+.pricewokItem{
+ margin-left:auto;   
+}
+
+.allprice{
+ margin-bottom: 20px;   
+ margin-left:10px;
+}
+
+
+.sousepicture,.topingpicture,.meetfishpicture,.soucedoppicture{
+ width:200px;   
+ margin-top:20px;
+}
